@@ -5,6 +5,9 @@
 .container {
   @apply max-w-5xl w-full mx-auto;
 }
+#hero {
+  background-color: #fbfbfb;
+}
 
 #categories-list {
   display: none;
