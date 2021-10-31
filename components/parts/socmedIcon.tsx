@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ig from "../public/images/icons/instagram.svg";
-import twt from "../public/images/icons/twitter.svg";
-import linkedin from "../public/images/icons/linkedin.svg";
+import ig from "../../public/images/icons/instagram.svg";
+import twt from "../../public/images/icons/twitter.svg";
+import linkedin from "../../public/images/icons/linkedin.svg";
 
 interface IconProps {
   padding: string;
