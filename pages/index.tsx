@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Header } from "../components/elements/Header";
 import { Hero } from "../components/elements/Hero";
+import { LatestNews } from "../components/elements/LatestNews";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,9 @@ const Home: NextPage = () => {
           <Header />
           <Hero />
         </header>
+        <section>
+          <LatestNews />
+        </section>
       </main>
 
       <footer></footer>
